@@ -1,0 +1,177 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Марс квест</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/1f50d2e781.css">
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+
+<div class="navbar navbar-default navbar-custom navbar-fixed-top" role="navigation">
+	<div class="container-fluid navbar-border">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbarMars" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><img class="img-circle logo" src="img/logo.jpeg" alt="" width="72px"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbarMars">
+			<ul class="nav navbar-nav">
+				<li  class="active"><a href="#adress">Адрес</a></li>
+				<li class="phone"><a href="tel:+77718888233" ><i class="fa fa-phone" aria-hidden="true"></i>  +77718888233</a></li>
+				<li class="instagram"><a href="https://instagram.com/mars_quest" target="_blank"><i class="fa fa-instagram color-instagram" aria-hidden="true"></i></a></li>
+				<li class="vk"><a href="https://vk.com/public152303673" target="_blank"><i class="fa fa-vk color-vk" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>	
+	</div>
+</div>
+<body>
+<div class=" wrapper">
+	<div class="container">
+		<div class="container-mars">
+			<svg viewBox="0 0 720 120">
+				<symbol id="s-text">
+					<text text-anchor="middle" x="50%" y="95%">MAPC КВЕСТ</text>
+				</symbol>
+				<g class="g-ants">
+					<use xlink:href="#s-text" class="text-copy"></use>
+					<use xlink:href="#s-text" class="text-copy"></use>
+					<use xlink:href="#s-text" class="text-copy"></use>
+					<use xlink:href="#s-text" class="text-copy"></use>
+					<use xlink:href="#s-text" class="text-copy"></use>
+				</g>
+			</svg>
+		</div>
+		<hr class="custom-hr">
+		<ul class="after-phrase">
+		<li><button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Забронировать</button>
+		<a href="#quest-description"><button type="button" class="btn btn-info">О квесте</button></a></li>
+		<li>
+<figure class="snip1560">
+  <img src="img/the-devil.jpg" alt="pr-sample23" />
+  <figcaption>
+    <h4></h4>
+    <h2>Пещера <span>Дьявола</span></h2>
+    <h3>Подробнее</h3>
+  </figcaption>
+  <a href="#quest-description" class="link"></a>
+</figure>
+		</li>
+		</ul>
+	</div>
+</div>
+
+<div id="myModal" class="modal fade" tabindex="-1">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal">x</button>
+					<h4 class="modal-title">Забронировать</h4>
+			</div>
+			<div class="modal-body"><iframe width=100% height=500px src="https://kvestbook.ru/booking/47837" frameborder="0"></iframe>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--<div class="bg-overlay">-->
+<div class="content container-fluid second bg-overlay"  id="quest-description">
+	<div class="container">
+	<div class="row">
+		<div class=" col-md-9">
+		<h1 class="left">История квеста</h1>
+			<div class="jumbotron">
+				<div class="col-md-9">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							</ol>
+
+						<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+										<img src="http://placehold.it/800x400" alt="...">
+											<div class="carousel-caption">
+												<p>Heading</p>
+											</div>
+								</div>
+								<div class="item">
+										<img src="http://placehold.it/800x400" alt="...">
+											<div class="carousel-caption">
+												<p>Heading</p>
+											</div>
+								</div>
+								<div class="item">
+										<img src="http://placehold.it/800x400" alt="...">
+											<div class="carousel-caption">
+												<p>Heading</p>
+											</div>
+								</div>
+							</div>
+
+						<!-- Controls -->
+							<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+				</div>
+					</div>
+					<div class="col-md-3">
+						<div class="quest-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum maiores autem quasi, neque suscipit odit sint ipsum doloremque excepturi quibusdam, pariatur, minus officiis, at repellat ab facere quos similique. Repudiandae.</div>
+					</div>
+	    <br>
+	    <br>
+    		<br>
+	    		<iframe width="100%" height="360" src="https://www.youtube.com/embed/QQF81MlxmIE" frameborder="0" allowfullscreen></iframe>
+	    </div>
+	    <h1 class="left">Адрес</h1>
+	    <div class="jumbotron adress" id="adress">
+	    
+	    <a class="dg-widget-link" href="http://2gis.kz/astana/firm/70000001028871320/center/71.420793,51.118674/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Астаны</a><div class="dg-widget-link"><a href="http://2gis.kz/astana/center/71.420793,51.118674/zoom/16/routeTab/rsType/bus/to/71.420793,51.118674╎Mars Quest Astana?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Mars Quest Astana</a></div><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":"100%","height":600,"borderColor":"#a3a3a3","pos":{"lat":51.118674,"lon":71.420793,"zoom":16},"opt":{"city":"astana"},"org":[{"id":"70000001028871320"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+			</div>	
+		</div>
+		<div class="col-md-3">
+			<h1 class="right">Выжившие</h1>
+			<div class="jumbotron">
+			
+			<h4 class="instagram-widget-title">Недавно посетившие наш квест</h2>
+			<!-- LightWidget WIDGET -->
+			<script src="//lightwidget.com/widgets/lightwidget.js"></script>
+			<iframe src="//lightwidget.com/widgets/8604f5081ce754c683877a1e4b8b9db1.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+			Подписывайся на наш Instagram
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+<!--</div>-->
+<footer>
+	<div class="container-fluid bottom-container">
+
+	</div>
+</footer>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>	
+</body>
+</html>
